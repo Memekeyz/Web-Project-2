@@ -1,0 +1,107 @@
+nav a:link {
+    color: crimson;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:visited {
+    color: rgb(173, 75, 173);
+}
+
+nav a:hover {
+    color: rgb(164, 164, 221);
+}
+
+nav a:active {
+  color: blue;
+}
+
+body {
+    font-family: Times New Roman, serif;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 680px;
+    margin-left: 680px;
+    background-color: darkslategray;
+}
+
+h1 {
+    color: lightblue;
+}
+
+h2 {
+    color: lightblue;
+}
+
+h3 {
+    color: rgb(45, 219, 211);
+}
+
+li {
+    color: rgb(10, 219, 122);
+}
+
+p {
+    color: rgb(10, 219, 122)
+}
+
+.item-selection {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 30px;      
+  margin-top: 50px;
+  justify-content: space-between;
+}
+
+.item-column {
+  flex: 1 220px; 
+  background-color: black; 
+  padding: 15px;
+  border-radius: 60px;
+}
+
+.item-column li {
+  margin-bottom: 30px;
+}
+
+.promo {
+  font-style: italic;
+  font-size: 1em;
+  color: rgb(212, 209, 20);
+  margin-bottom: 30px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  color: gold;
+  font-weight: bold;
+  border: 3px solid white;
+  padding: 12px;
+}
+
+.social-media {
+  margin-top: 45px;
+  text-align: center;
+}
+
+.social-media h1 {
+  color: cyan;
+  margin-bottom: 20px;
+}
+
+.social-link {
+  display: inline-block;
+  padding: 12px 26px;
+  margin: 8px;
+  background-color: black;
+  color: cyan;
+  border: 1px solid cyan;
+  border-radius: 400px;
+  text-decoration: none;
+  font-weight: bold;
+}
